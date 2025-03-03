@@ -18,7 +18,7 @@ const Register = () => {
   
   const { register } = useAuth();
   const navigate = useNavigate();
-
+ 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
