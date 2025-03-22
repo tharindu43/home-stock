@@ -1,0 +1,89 @@
+/* Report.css - Enhanced, user-friendly, modern styles for the Reports page */
+
+.report-container {
+  padding: 2rem 1rem;
+  background: #f7fafd;
+  min-height: 100vh;
+}
+
+.report-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #2b3945;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.card {
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 16px rgba(44, 62, 80, 0.08);
+  border: none;
+  transition: transform 0.15s;
+  background: #fff;
+}
+.card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 8px 24px rgba(44, 62, 80, 0.13);
+}
+.card-header {
+  border-radius: 1.2rem 1.2rem 0 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 1rem 1.5rem;
+}
+.card-body {
+  padding: 1.5rem;
+}
+
+.btn {
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.7rem;
+  padding: 0.6rem 1.2rem;
+  transition: background 0.18s, color 0.18s;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #2b3945;
+}
+.form-select, .form-control {
+  border-radius: 0.5rem;
+  border: 1px solid #cfd8dc;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-bottom: 0.7rem;
+}
+
+.alert {
+  border-radius: 0.7rem;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+}
+.alert-success {
+  background: #e6f9e6;
+  color: #2e7d32;
+  border: 1px solid #b2fab4;
+}
+.alert-danger {
+  background: #ffeaea;
+  color: #c62828;
+  border: 1px solid #ffbdbd;
+}
+
+@media (max-width: 767px) {
+  .report-title {
+    font-size: 1.5rem;
+  }
+  .card {
+    margin-bottom: 1.5rem;
+  }
+}
