@@ -235,6 +235,7 @@ const GroceryForm = () => {
               </div>
             </div>
 
+
             <div className="mb-3">
               <label htmlFor="notes" className="form-label">Notes</label>
               <textarea
