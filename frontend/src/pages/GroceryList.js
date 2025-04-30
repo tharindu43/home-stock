@@ -183,5 +183,8 @@ const GroceryList = () => {
 };
 
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 export default GroceryList;
