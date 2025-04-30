@@ -18,6 +18,7 @@ const BudgetForm = () => {
     notes: ''
   });
   
+
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
   const [submitError, setSubmitError] = useState(null);
@@ -31,6 +32,7 @@ const BudgetForm = () => {
       'Gifts',
       'Refunds',
       'Other Income'
+
     ],
     expense: [
       'Groceries',
@@ -84,6 +86,7 @@ const BudgetForm = () => {
     }
   };
 
+  
   const handleChange = (e) => {
     const { name, value } = e.target;
     
