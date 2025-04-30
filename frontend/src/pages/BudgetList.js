@@ -18,6 +18,7 @@ const BudgetList = () => {
     fetchBudgetEntries();
   }, []);
 
+  
   const fetchBudgetEntries = async () => {
     try {
       setLoading(true);
