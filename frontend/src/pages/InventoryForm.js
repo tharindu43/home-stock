@@ -41,8 +41,9 @@ const InventoryForm = () => {
     }
   }, [id]);
 
-
   
+
+
   const fetchInventoryItem = async () => {
     try {
       setLoading(true);
