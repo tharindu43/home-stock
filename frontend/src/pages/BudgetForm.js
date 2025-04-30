@@ -18,6 +18,7 @@ const BudgetForm = () => {
     notes: ''
   });
   
+  
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
   const [submitError, setSubmitError] = useState(null);
