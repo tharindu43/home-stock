@@ -11,7 +11,7 @@ const Register = () => {
     phoneNumber: '',
     password: '',
     confirmPassword: '',
-  });
+  }); 
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
   const [registerError, setRegisterError] = useState('');
@@ -25,7 +25,7 @@ const Register = () => {
       ...formData,
       [name]: value,
     });
-    
+      
     // Clear error when user types
     if (errors[name]) {
       setErrors({

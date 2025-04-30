@@ -21,7 +21,7 @@ const Profile = () => {
   const [loading, setLoading] = useState(false);
   const [submitError, setSubmitError] = useState(null);
   const [successMessage, setSuccessMessage] = useState(null);
-
+  
   useEffect(() => {
     if (user) {
       setFormData({
