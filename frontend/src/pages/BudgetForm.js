@@ -32,7 +32,7 @@ const BudgetForm = () => {
       'Gifts',
       'Refunds',
       'Other Income'
-      
+
     ],
     expense: [
       'Groceries',
@@ -86,6 +86,7 @@ const BudgetForm = () => {
     }
   };
 
+  
   const handleChange = (e) => {
     const { name, value } = e.target;
     
