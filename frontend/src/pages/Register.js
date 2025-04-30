@@ -11,21 +11,21 @@ const Register = () => {
     phoneNumber: '',
     password: '',
     confirmPassword: '',
-  });
+  }); 
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
   const [registerError, setRegisterError] = useState('');
   
   const { register } = useAuth();
   const navigate = useNavigate();
-
+ 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
       [name]: value,
     });
-    
+      
     // Clear error when user types
     if (errors[name]) {
       setErrors({
