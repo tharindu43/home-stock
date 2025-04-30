@@ -8,6 +8,8 @@ const createGrocery = async (req, res) => {
   try {
     const { name, category, quantity, unit, purchaseDate, expiryDate, notes } = req.body;
 
+
+    
     const grocery = await Grocery.create({
       user: req.user._id,
       name,
