@@ -15,6 +15,7 @@ const InventoryList = () => {
     fetchInventoryItems();
   }, []);
 
+  
   const fetchInventoryItems = async () => {
     try {
       setLoading(true);

@@ -21,6 +21,8 @@ const InventoryForm = () => {
     condition: 'Good',
     notes: ''
   });
+
+
   
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
@@ -38,6 +40,9 @@ const InventoryForm = () => {
       });
     }
   }, [id]);
+
+  
+
 
   const fetchInventoryItem = async () => {
     try {

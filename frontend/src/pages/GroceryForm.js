@@ -234,6 +234,8 @@ const GroceryForm = () => {
                 {errors.expiryDate && <div className="invalid-feedback">{errors.expiryDate}</div>}
               </div>
             </div>
+            
+
 
             <div className="mb-3">
               <label htmlFor="notes" className="form-label">Notes</label>
