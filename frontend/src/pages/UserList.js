@@ -17,8 +17,6 @@ const UserList = () => {
     fetchUsers();
   }, []);
 
-  
-
   const fetchUsers = async () => {
     try {
       setLoading(true);
@@ -32,7 +30,7 @@ const UserList = () => {
       setLoading(false);
     }
   };
-  
+
   const handleDelete = async (id) => {
     // Prevent deleting yourself
     if (id === currentUser._id) {
